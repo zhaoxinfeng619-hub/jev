@@ -1,0 +1,16 @@
+# Build products and local caches
+*.app/
+work/
+.build/
+.DS_Store
+*.log
+*.zip
+
+# Local credentials and personal data
+.env
+.env.*
+!.env.example
+settings.json
+templates.json
+*.key
+*.pem
